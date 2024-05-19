@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>@ViewBag.Message</h1>
+    <p class="lead">This is a simple ASP.NET MVC application for managing helpdesk services.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>About</h2>
+        <p>Learn more about our helpdesk service.</p>
+        <p><a class="btn btn-default" href="@Url.Action("About", "Home")">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Contact</h2>
+        <p>Contact us for support and assistance.</p>
+        <p><a class="btn btn-default" href="@Url.Action("Contact", "Home")">Contact us &raquo;</a></p>
+    </div>
+</div>
